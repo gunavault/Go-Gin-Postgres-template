@@ -1,4 +1,4 @@
-# GO GIN POSTGRES API Template
+# GO GIN POSTGRES API Template [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/gunavault/Go-Gin-Postgres-template/blob/main/LICENSE)
 
 This is a GO GIN POSTGRES API Template built with Go and the Gin framework. It allows user registration, login, and access to user information with JWT-based authentication. you can custom this API as you need. _I'll update this template little by little when I have a chance_.
 
