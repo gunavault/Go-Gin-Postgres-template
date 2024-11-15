@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"database/sql"
-	"my-portofolio/config"
-	"my-portofolio/models"
+	"go-gin-postgres-template/config"
+	"go-gin-postgres-template/models"
 	"net/http"
 
 	"log"

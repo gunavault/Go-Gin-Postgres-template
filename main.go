@@ -1,8 +1,8 @@
 package main
 
 import (
-	"my-portofolio/config"
-	"my-portofolio/routes"
+	"go-gin-postgres-template/config"
+	"go-gin-postgres-template/routes"
 
 	"github.com/gin-gonic/gin"
 )

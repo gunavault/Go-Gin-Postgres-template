@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	database "my-portofolio/config"
-	"my-portofolio/models"
+	database "go-gin-postgres-template/config"
+	"go-gin-postgres-template/models"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

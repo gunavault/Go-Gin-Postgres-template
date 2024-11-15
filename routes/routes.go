@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"my-portofolio/handlers"
+	"go-gin-postgres-template/handlers"
 
 	"github.com/gin-gonic/gin"
 )
