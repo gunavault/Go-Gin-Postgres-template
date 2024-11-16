@@ -1,0 +1,79 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Go Gin postgres API template",
+    "collectionId": "8f61d3d3-f043-4a8c-9b79-3eb24848f65b",
+    "dateExported": "2024-11-15T17:34:55.952Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6fa31158-8e6a-4fcf-9d7e-30798daad70f",
+            "colId": "8f61d3d3-f043-4a8c-9b79-3eb24848f65b",
+            "containerId": "",
+            "name": "Go : Register",
+            "url": "http://localhost:8080/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-11-15T17:31:49.137Z",
+            "modified": "2024-11-15T17:34:24.672Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"Johdoe\",\n  \"password\": \"secretpassword\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "0de59710-6345-4cec-ae37-92bb81796249",
+            "colId": "8f61d3d3-f043-4a8c-9b79-3eb24848f65b",
+            "containerId": "",
+            "name": "Go: Login",
+            "url": "http://localhost:8080/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-11-15T17:31:57.253Z",
+            "modified": "2024-11-15T17:31:57.253Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"johndoe\",\n  \"password\": \"securepassword123\"\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "ecd3f9c6-5deb-4fb8-82ea-9e8fc7f83559",
+            "colId": "8f61d3d3-f043-4a8c-9b79-3eb24848f65b",
+            "containerId": "",
+            "name": "Go : get spesifc user",
+            "url": "http://localhost:8080/user/username",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-11-15T17:33:39.467Z",
+            "modified": "2024-11-15T17:33:39.467Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzE3NzU5NDksInN1YiI6ImM1ZTJmNTk5LThlNjUtNGJiNC1hZmM2LTczYTNkNTA0M2JmYyJ9.tSN04g9AXKTP8uhdBfzKYOQx8bUI8e29-fkOZfR-1fQ"
+                }
+            ]
+        },
+        {
+            "_id": "7a36c21e-eaf6-4d2b-9d25-82abbd340a7b",
+            "colId": "8f61d3d3-f043-4a8c-9b79-3eb24848f65b",
+            "containerId": "",
+            "name": "Go : Get All User",
+            "url": "http://localhost:8080/users",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-11-15T17:33:44.360Z",
+            "modified": "2024-11-15T17:33:44.360Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzE3NzU5NDksInN1YiI6ImM1ZTJmNTk5LThlNjUtNGJiNC1hZmM2LTczYTNkNTA0M2JmYyJ9.tSN04g9AXKTP8uhdBfzKYOQx8bUI8e29-fkOZfR-1fQ"
+                }
+            ]
+        }
+    ],
+    "ref": "VyNbqB7HllORU4VIRpSDax0glhW7YoOIxbYzkcwgxMpGSIEDX2VIZ1WR-Q1D2VuZi4MU-AD9Sbv_o3UGOZjRhQ"
+}
