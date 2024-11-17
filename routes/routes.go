@@ -17,6 +17,10 @@ func SetupRoutes(router *gin.Engine) {
 	{
 		auth.GET("/user/:username", handlers.GetUser)
 		auth.GET("/users", handlers.GetAllUsers)
+		auth.POST("/projects", handlers.PostProject)
+		auth.PUT("/projects/:project_id", handlers.UpdateProject)
+		auth.DELETE("/projects/:project_id", handlers.DeleteProject)
 	}
+	router.GET("/projects", handlers.GetAllProject)
 
 }
