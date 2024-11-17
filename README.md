@@ -15,8 +15,8 @@ This is a GO GIN POSTGRES API Template built with Go and the Gin framework. It a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/my-portfolio-api.git
-   cd my-portfolio-api
+   git clone https://github.com/gunavault/Go-Gin-Postgres-template.git
+   cd Go-Gin-Postgres-template
 2. Install Dependency:
    ```bash
    go mod tidy
