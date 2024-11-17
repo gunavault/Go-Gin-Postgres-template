@@ -7,6 +7,7 @@ This is a GO GIN POSTGRES API Template built with Go and the Gin framework. It a
 
 - User registration with password hashing
 - User login with JWT token generation
+- Example of Basic Crud
 - JWT-based authentication middleware
 - Testing API with get User
 
