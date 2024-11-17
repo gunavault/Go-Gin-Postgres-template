@@ -20,6 +20,7 @@ This is a GO GIN POSTGRES API Template built with Go and the Gin framework. It a
 2. Install Dependency:
    ```bash
    go mod tidy
+3. Copy .env.example and make adjustment on your .env
 3. Create a PostgreSQL database and Ensure the required uuid-ossp extension is enabled for UUID generation.
 4. run the query from `query.sql`
 5. run the code :
